@@ -1,0 +1,12 @@
+h1{
+    color:blue;
+}
+
+nav{
+    text-align: center;
+}
+
+#city-list{
+  font-weight: bold;
+  white-space: pre-wrap;
+}

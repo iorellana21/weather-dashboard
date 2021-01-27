@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Dashboard</title>
+        <!-- css -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+
+        <!-- weather dashboard title -->
+        <nav>
+            Weather Dashboard
+        </nav>
+
+        <h1>Hi How Are You</h1>
+
+        <!-- create user input field to search city - and also display last city searched when page is opened via localStorage -->
+        <input id="city-input" name="city-input" placeholder="Im Good Thanks">
+        <!-- display search button to the right of input -->
+        <button id="search-city">Search</button>
+
+        <!-- this is where the searched cities will appear - from recent to old -->
+        <div id="city-list"></div>
+        
+
+        <!-- jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        </script>
+        <!-- js -->
+        <script src="script.js"></script>
+    </body>
+
+</html>
