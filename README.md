@@ -30,7 +30,7 @@ User enters a city name in the input field to see weather conditions.
 
 
 ## Main Page
-![alt text](pic "weather-main-page")
+![alt text](https://raw.githubusercontent.com/iorellana21/weather-dashboard/main/assets/weather-dashboard.png "weather-main-page")
 
 ---
 ## Credits
