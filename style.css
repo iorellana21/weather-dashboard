@@ -1,12 +1,101 @@
-h1{
-    color:blue;
+.navbar {
+    justify-content: center;
+    background-color: #051094;
 }
 
-nav{
-    text-align: center;
+.sidenav {
+    min-height: 100vh !important;
 }
 
-#city-list{
-  font-weight: bold;
-  white-space: pre-wrap;
+label {
+    font-weight: 400;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    line-height: 30px;
+    width: 100%;
+    margin-right: 0px !important;
+    padding: 5px;
+    padding-left: 8px;
+}
+
+h1 {
+    letter-spacing: 1px;
+    color: white;
+}
+
+button {
+    color: white;
+    background: #051094;
+    border-color: orange;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 0px !important;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background: orange;
+    border-color: #051094;
+    transition: 1s;
+}
+
+.list {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    line-height: 30px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.current-weather {
+    margin: 15px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 30px;
+    width: 100%;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.uvGreen {
+    background-color: green;
+    color: black;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.uvYellow {
+    background-color: yellow;
+    color: black;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.uvRed {
+    background-color: red;
+    color: black;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.five-day-forecast {
+    background-color: #051094;
+    border-radius: 5px;
+    padding: 10px;
+    line-height: 35px;
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.five-day-forecast:hover {
+    background: orange;
+    transition: 1.5s;
 }
