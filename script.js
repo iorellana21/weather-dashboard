@@ -7,7 +7,7 @@ var lat = "";
 var long = "";
 var latLong = "";
 var cityArray = [];
-var apiKey = "c7cde66d595fb98577da25bd96a3df85";
+var apiKey = "";
 
 // function to start from scratch and update cityArray with user input
 function restart() {
